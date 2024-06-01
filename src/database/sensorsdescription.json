@@ -1,0 +1,172 @@
+[
+  {
+    "id": "1",
+    "name": "Capteur Temperature & Humidite DHT11",
+    "topic": ["temperature", "humidite"],
+    "img": "/img/dht11.jpg",
+    "description": "Le capteur de température et d’humidité DHT11 est doté d’un complexe de capteurs de température et d’humidité avec une sortie de signal numérique calibrée. il garantit une grande fiabilité et une excellente stabilité à long terme. Ce capteur comprend un composant de mesure de l’humidité de type résistif et un composant de mesure de la température NTC.",
+    "caracteristique": [
+      {
+        "caracteristiqueName": "Alimentation",
+        "value": " +5 Vcc"
+      },
+      {
+        "caracteristiqueName": "Plage de mesure de température",
+        "value": " 0 à 50 °C"
+      },
+      {
+        "caracteristiqueName": "Plage de mesure d'humidité",
+        "value": " 20 à 90 % RH"
+      },
+      {
+        "caracteristiqueName": "Précision de température",
+        "value": " ± 2 °C"
+      },
+      {
+        "caracteristiqueName": "Précision d'humidité ",
+        "value": " 0 à 50 °C"
+      },
+
+      {
+        "caracteristiqueName": "Sorties",
+        "value": " S, Vcc, Gnd"
+      },
+      {
+        "caracteristiqueName": "Dimensions",
+        "value": " 23 x 17 x 9 mm"
+      },
+      {
+        "caracteristiqueName": "Le principe général du travail",
+        "value": "Chaque élément DHT11 est strictement étalonné en laboratoire et extrêmement précis sur l’étalonnage de l’humidité. Les coefficients d’étalonnage sont stockés sous forme de programmes dans la mémoire OTP, qui sont utilisés par le processus de détection de signal interne du capteur. L’interface série à fil unique rend l’intégration du système rapide et facile. Sa petite taille, sa faible consommation et sa transmission de signal jusqu’à 20 mètres en font le meilleur choix pour diverses applications, y compris les plus exigeantes. Le composant est un paquet de 4 broches à une rangée de broches. Il est pratique de se connecter et des paquets spéciaux peuvent être fournis selon la demande des utilisateurs."
+      }
+    ]
+  },
+
+  {
+    "id": "2",
+    "name": "Capteur Ultrason HC-SR04",
+    "topic": ["ultrason"],
+    "img": "/img/HC-SR04.jpg",
+    "description": "Module de mesure ultrasonique HC - SR04 offre 2cm - 400cm fonction de mesure sans contact, la précision de mesure peut atteindre 3mm. Les modules comprennent des émetteurs à ultrasons, un récepteur et un circuit de contrôle.",
+    "caracteristique": [
+      {
+        "caracteristiqueName": "Alimentation",
+        "value": " 5 Vcc"
+      },
+      {
+        "caracteristiqueName": "Consommation",
+        "value": "15 mA"
+      },
+      {
+        "caracteristiqueName": "Fréquence",
+        "value": "40 kHz"
+      },
+      {
+        "caracteristiqueName": "Portée",
+        "value": "de 6…10 cm à 4 m"
+      },
+      {
+        "caracteristiqueName": "Déclenchement",
+        "value": "impulsion TTL positive de 10µs"
+      },
+
+      {
+        "caracteristiqueName": "Signal écho",
+        "value": "impulsion positive TTL proportionnelle à la distance."
+      },
+      {
+        "caracteristiqueName": "Calcul",
+        "value": "distance (cm) = impulsion (µs) / 58"
+      },
+      {
+        "caracteristiqueName": "Dimensions",
+        "value": "45 x 21 x 18 mm"
+      },
+      {
+        "caracteristiqueName": "Le principe général du travail",
+        "value": "(1) Utiliser le déclencheur IO pour un signal de niveau élevé d’au moins 10 US. \n(2) Le module envoie automatiquement huit 40 kHz et détecte s’il y a un retour de signal. \n(3) SI le signal revient, à travers un niveau élevé, le temps de la durée de l’ES à haut rendement est le temps entre l’émission d’ultrasons et le retour."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Capteur De Gaz MQ135 ",
+    "topic": ["gaz"],
+    "img": "./img/MQ135.jpg",
+    "description": "Le capteur MQ135 est excellent pour détecter les gaz dangereux et mesurer la qualité de l'air. Il peut détecter l’ammoniac, les composés aromatiques, le soufre, la vapeur de benzène, la fumée et d’autres gaz gazeux nocifs. Ce capteur de gaz a une sensibilité allant de 10 à 1000.",
+    "caracteristique": [
+      {
+        "caracteristiqueName": "Gaz détectables",
+        "value": "ammoniac , benzène , alcool , fumée."
+      },
+      {
+        "caracteristiqueName": "Plage de détection",
+        "value": "10-300 ppm NH3 , 10-1000 ppm Benzène , 10-600 ppm d’alcool."
+      },
+      {
+        "caracteristiqueName": "Temps de réponse",
+        "value": "≤ 10s (réponse de 70%)"
+      },
+      {
+        "caracteristiqueName": "Temps de récupération",
+        "value": "≤ 30s (70% de réponse)"
+      },
+      {
+        "caracteristiqueName": "Température ambiante de opération",
+        "value": "-20 à + 55 C"
+      },
+
+      {
+        "caracteristiqueName": "Humidité d'ambiante de opération",
+        "value": "≤ 95% HR"
+      },
+      {
+        "caracteristiqueName": "Teneur environnementale en oxygène",
+        "value": "21%"
+      },
+      {
+        "caracteristiqueName": "Température de stockage",
+        "value": "-20 – +70"
+      },
+      {
+        "caracteristiqueName": "Humidité de stockage",
+        "value": "≤70% RH"
+      }
+    ]
+  },
+
+  {
+    "id": "4",
+    "name": "Capteur Infrarouge IR et Détecteur D’obstacle",
+    "topic": ["infrarouge"],
+    "img": "/img/infrarougeIR.jpg",
+    "description": "Le module de capteur a une forte capacité d’adaptation à la lumière ambiante et possède une paire de tubes émetteurs et récepteurs infrarouges. Le tube émetteur émet des rayons infrarouges d’une certaine fréquence. Lorsque la direction de détection rencontre un obstacle (surface réfléchissante), les rayons infrarouges sont réfléchis et reçus par le tube récepteur. Après le traitement du circuit du comparateur, le voyant vert s’allume et l’interface de sortie du signal émet un signal numérique (un signal de niveau bas).",
+    "caracteristique": [
+      {
+        "caracteristiqueName": "Taille de circuit imprimé",
+        "value": "32mm x 14mm"
+      },
+      {
+        "caracteristiqueName": "Alimentation",
+        "value": "DC 3-5V"
+      },
+      {
+        "caracteristiqueName": "Distance de détection",
+        "value": "2 ~ 30cm"
+      },
+      {
+        "caracteristiqueName": "Angle de détection",
+        "value": "35 °"
+      },
+      {
+        "caracteristiqueName": "Caractéristiques",
+        "value": "Faible interférence, assemblage facile et pratique à utiliser."
+      },
+
+      {
+        "caracteristiqueName": "Application",
+        "value": "Largement utilisé dans les robots pour éviter les obstacles, les voitures d’évitement d’obstacles, le comptage des lignes d’assemblage et le suivi des lignes en noir et blanc, etc."
+      }
+    ]
+  }
+]
